@@ -1,14 +1,5 @@
-import MyComponents from "@/components/MyComponents";
-import { Button } from "@/components/ui/button";
-
+import HomePage from "@/pages/Home/HomePage";
 
 export default function Home() {
-  return (
-    <div>
-      <MyComponents />
-      <Button className="ml-10 mt-10">
-        Download Button
-      </Button>
-    </div>
-  );
+  return <HomePage />
 }
