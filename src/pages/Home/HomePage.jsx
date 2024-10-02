@@ -1,12 +1,11 @@
-
-
-
-
+import FindBlood from "@/components/main/Home/FindBlood/FindBlood";
+import HomeBanner from "@/components/main/Home/HomeBanner/HomeBanner";
 
 const HomePage = () => {
     return (
         <div>
-            This is our modunaghat blood bank home page
+           <HomeBanner />
+           <FindBlood />
         </div>
     );
 };
