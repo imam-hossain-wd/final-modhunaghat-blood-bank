@@ -15,13 +15,13 @@ const Navbar = () => {
       <Link className="text-gray-800 mt-2 lg:mt-0 lg:mr-3" href="/blood-bank">
         Blood Bank
       </Link>
-      <Link className="text-gray-800 mt-2 lg:mt-0 lg:mr-3" href="/be-a-donor">
+      <Link className="text-gray-800 mt-2 lg:mt-0 lg:mr-3" href="/donor-register">
         Be a Donor
       </Link>
-      <Link className="text-gray-800 mt-2 lg:mt-0 lg:mr-3" href="/contact">
+      <Link className="text-gray-800 mt-2 lg:mt-0 lg:mr-3" href="/contact-us">
         Contact
       </Link>
-      <Link className="text-gray-800 mt-2 lg:mt-0 lg:mr-3" href="/about">
+      <Link className="text-gray-800 mt-2 lg:mt-0 lg:mr-3" href="/about-us">
         About
       </Link>
     </li>

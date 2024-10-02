@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-gray-50 border-t shadow-md py-12">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
           {/* Quick Links */}
           <div>
@@ -44,9 +44,9 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your Email Address"
-                className="w-full px-4 py-2 text-black rounded-l-md"
+                className="w-full px-4 py-2 text-black rounded-l-md focus:outline-none border"
               />
-              <button type="submit" className="bg-yellow-500 px-6 py-2 rounded-r-md hover:bg-yellow-600">
+              <button type="submit" className="bg-primary text-white px-6 py-2 rounded-r-md ">
                 SEND
               </button>
             </form>
@@ -54,8 +54,8 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 py-4">
           <div className="container mx-auto flex justify-between items-center">
-            <p>&copy; 2021. All rights reserved.</p>
-            <p>Humanite - Charity & Donation Template Kit by Jegtheme</p>
+            <p>&copy; 2024. All rights reserved.</p>
+            <p>Modhunaghat Blood Bank , Unity For Humanity</p>
           </div>
         </div>
       </footer>
