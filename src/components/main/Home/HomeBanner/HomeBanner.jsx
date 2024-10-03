@@ -9,7 +9,7 @@ const HomeBanner = () => {
   const { homebanner } = homeAssets;
   return (
     <div>
-      <div className="flex flex-col-reverse lg:flex-row justify-around items-center space-y-4 lg:space-y-0 lg:space-x-8 p-8 bg-gray-50">
+      <div className="flex flex-col-reverse lg:flex-row justify-around items-center space-y-4 lg:space-y-0 lg:space-x-8 p-8 bg-gray-50  mb-5">
         <div className="text-2xl lg:text-4xl font-bold text-primary text-center lg:text-left -mt-">
           <h2 className="typewriter">Donate Blood, Save Lives</h2>
           <h2>Be A Hero Today</h2>
@@ -18,11 +18,12 @@ const HomeBanner = () => {
             lives!
           </p>
 
-          <div className="flex ml-10 lg:ml-0 mt-5 items-center">
-            <Button className="text-xl font-bold">
-              <Link href="/donor/register">Join as a Donor</Link>
+          <div className="flex text-lg ml-5 lg:ml-0 mt-5 items-center">
+            <Button className="font-bold">
+              <Link href="/donor/register">Be a Donor</Link>
             </Button>
-            <Button className="text-xl ml-5 font-bold">Find Donor</Button>
+            <Button className="ml-5 font-bold">Find Donor</Button>
+            <Button className="ml-5 font-bold">Blood Request</Button>
           </div>
         </div>
         <Image
