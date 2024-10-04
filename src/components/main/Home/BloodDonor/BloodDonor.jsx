@@ -1,6 +1,7 @@
 "use client";
 
 import { Card } from "@/components/ui/card";
+
 import Image from "next/image";
 
 const donors = [
@@ -71,7 +72,12 @@ const donors = [
   },
 ];
 
+
+
+
+
 const BloodDonor = () => {
+
   return (
     <div  className="grid grid-cols-1 lg:grid-cols-5 gap-5 w-[90%] mx-auto">
       {donors?.map((donor, index) => (
